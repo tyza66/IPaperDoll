@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/bj">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="哎纸娃娃纸娃娃合成器"
+        android:textSize="20sp"
+        android:textColor="#fc6541"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_layout"
+            android:text="纸娃娃合成"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="获取素材"
+            android:textSize="20sp"
+            android:background="@drawable/btn_layout"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/bt_3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="使用教程"
+            android:textSize="20sp"
+            android:background="@drawable/btn_layout"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/bt_4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="关于"
+            android:textSize="20sp"
+            android:background="@drawable/btn_layout"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">哎纸娃娃</string>
+
+    <string-array name="tu1">
+        <item>默认肢体1</item>
+        <item>默认肢体2</item>
+    </string-array>
+    <string-array name="tu2">
+        <item>默认头发1</item>
+        <item>默认头发2</item>
+    </string-array>
+    <string-array name="tu3">
+        <item>默认衣服1</item>
+        <item>默认衣服2</item>
+    </string-array>
+    <string-array name="tu4">
+        <item>默认裤子1</item>
+        <item>默认裤子2</item>
+    </string-array>
+    <string-array name="tu5">
+        <item>默认鞋子1</item>
+        <item>默认鞋子2</item>
+    </string-array>
+    <string-array name="tu6">
+        <item>默认眼镜1</item>
+    </string-array>
+    <string-array name="tu7">
+        <item>默认手套1</item>
+    </string-array>
+    <string-array name="tu8">
+        <item>默认翅膀1</item>
+    </string-array>
+</resources>

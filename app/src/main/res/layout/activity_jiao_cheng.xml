@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JiaoCheng"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="软件使用教程"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="一、纸娃娃合成"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="329dp"
+                    android:layout_height="20dp"
+                    android:text="1.勾选下面的复选框，选择你需要的配件"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="20dp"
+                    android:text="2.选择你文件里的纸娃娃素材"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="3.点击构建之后产生的文件会出现在目录下的A1文件内"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="二、素材导入"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="1.使用文件浏览器找到SD卡根目录下的“纸娃娃哎”文件夹"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="20dp"
+                    android:text="2.进入你要导入素材的分类文件夹"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="3.将规格正确的素材文件（透明背景）导入指定文件夹"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="4.重启软件或重新打开纸娃娃合成功能页面"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="5.导入的素材就会出现在所分类的下拉框下面"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="三、导入多饰品"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="1.将导入单一饰品的成品图放入肢体文件夹"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="398dp"
+                    android:layout_height="20dp"
+                    android:text="2.只勾选需要的肢体和所需要的新饰品"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="3.再次构建的素材就是使用了多饰品的素材"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="四、导入翅膀或背景"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="1.不必担心翅膀会盖住行走图，翅膀总会在最低图层"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="五、导入眼睛"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="1.同饰品导入"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
